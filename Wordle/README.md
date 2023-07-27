@@ -3,7 +3,7 @@
 
 Challenge: Make a reproduction of Wordle that has the same user experience.
 
-Tools: Python and PyCharm (Visual Design)
+Tools: Python and PyCharm 
 
 Team: Joshua Fried (solo project)
 ### How To Play 
