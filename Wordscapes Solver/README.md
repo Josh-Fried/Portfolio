@@ -14,7 +14,7 @@ Wordscapes has many levels and a level is won by finding all the possible words 
 
 It looks like this picture: 
 
-<img scr="https://github.com/Josh-Fried/Portfolio/assets/98046392/c60366a4-ae98-469d-a0c4-d622cb65a1cb" width="332" height="718">
+<img scr="https://github.com/Josh-Fried/Portfolio/edit/main/Wordscapes%20Solver/IMG_1975.png" width="332" height="718">
 
 My program looks like this: 
 
