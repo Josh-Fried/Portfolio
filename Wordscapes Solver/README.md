@@ -11,7 +11,7 @@ Team: Joshua Fried (solo project)
 
 The user enters `go run wordscape.go` into the command line. My program will then prompt the use to enter the letters. 
 
-<img width="442" alt="Screenshot 2023-07-28 at 3 19 32 PM" src="https://github.com/Josh-Fried/Portfolio/assets/98046392/931596c5-bd8b-419d-9164-6e8be0343a36">
+<img width="477" alt="Screenshot 2023-07-29 at 2 50 31 PM" src="https://github.com/Josh-Fried/Portfolio/assets/98046392/cbd8b940-e738-4e13-bca3-e034e019da44">
 
 After the user enters the letters the program will output the answers. It finds the answers by using a combination of all the letters for 3, 4, 5 and 6 letter words from a word list of over 43000 words.
 
