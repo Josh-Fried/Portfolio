@@ -12,7 +12,7 @@ Team: Joshua Fried (solo project)
 ### Rules: 
 Wordscapes has many levels and a level is won by finding all the possible words that can be made from a combination of letters. 
 
-It looks like this picture: 
+A level looks like: 
 
 ![Screenshot 2023-07-29 at 2 38 28 PM](https://github.com/Josh-Fried/Portfolio/assets/98046392/ad061f37-9f96-440a-b091-e59479ebeaad)
 
