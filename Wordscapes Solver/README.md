@@ -13,6 +13,7 @@ Team: Joshua Fried (solo project)
 Wordscapes has many levels and a level is won by finding all the possible words that can be made from a combination of letters. 
 
 It looks like this picture: 
+
 ![Screenshot 2023-07-29 at 2 38 28 PM](https://github.com/Josh-Fried/Portfolio/assets/98046392/ad061f37-9f96-440a-b091-e59479ebeaad)
 
 My program looks like this: 
@@ -22,6 +23,6 @@ My program looks like this:
 
 This is what the finished Wordscapes level looks like: 
 
-<img scr="https://github.com/Josh-Fried/Portfolio/blob/main/Wordscapes%20Solver/IMG_1976.PNG">
+![Screenshot 2023-07-29 at 2 40 16 PM](https://github.com/Josh-Fried/Portfolio/assets/98046392/f69d62f4-004c-477f-8e05-03a40d96eb2a)
 
-<img scr="https://github.com/Josh-Fried/Portfolio/blob/main/Wordscapes%20Solver/IMG_1977.PNG" width="332" height="718">
+![Screenshot 2023-07-29 at 2 40 39 PM](https://github.com/Josh-Fried/Portfolio/assets/98046392/de6f6227-bd18-4564-b67c-7f3dd2ca8577)
