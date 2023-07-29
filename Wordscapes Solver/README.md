@@ -9,7 +9,7 @@ Tools: GoLang
 Team: Joshua Fried (solo project)
 ### How It Works
 
-The user enters X into the command line. My program will then prompt the use to enter the letters. 
+The user enters `go run wordscape.go` into the command line. My program will then prompt the use to enter the letters. 
 
 <img width="442" alt="Screenshot 2023-07-28 at 3 19 32 PM" src="https://github.com/Josh-Fried/Portfolio/assets/98046392/931596c5-bd8b-419d-9164-6e8be0343a36">
 
