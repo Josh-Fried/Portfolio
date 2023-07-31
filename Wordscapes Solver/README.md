@@ -2,7 +2,7 @@
 
 ### Project Overview
 
-Challenge: Make a program that given letters can outpput all possible words in seconds.
+Challenge: Make a program that given letters can output all possible words in seconds.
 
 Tools: GoLang
 
