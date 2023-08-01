@@ -1,10 +1,6 @@
 
 
 
-
-https://user-images.githubusercontent.com/98046392/205392383-59b5e02c-f90d-4c90-ad46-746792a84ecd.mp4
-
-
 Link Layer Token Passing Protocol, Created by: Josh Fried and Jeremy Heng
 
 Instructions:
