@@ -27,6 +27,7 @@ function App() {
     setXIsNext(!xIsNext);
 
     bigboard[index] = calculateWinner(board[index]);
+    bigboard[index] = calculateDraw(board[index], index, bigboard);
     if(bigboard[index] != null){ //changing the middle small board to the winner to display winner in big board
       console.log(board[index][4]);
       board[index][4] = bigboard[index];
@@ -55,7 +56,7 @@ function App() {
   const renderSquare = (index, i) => (
     <button className={`square ${isOverlayVisible ? 'overlay' : ''} ${currentBoard === index ? 'active' : ''} 
     ${board[index][i] == 'X' ? 'X' : ''} ${board[index][i] == 'O' ? 'O' : ''}
-    ${bigboard[index] == 'X' ? 'WinX' : ''} ${bigboard[index] == 'O' ? 'WinO' : ''}
+    ${bigboard[index] == 'X' ? 'WinX' : ''} ${bigboard[index] == 'O' ? 'WinO' : ''} ${bigboard[index] == '?' ? 'draw' : ''}
     ${bigboard[index] != null && i == 4 ? 'middle' : ''} ${winner ? 'gameOver' : ''}`} 
     onClick={() => handleClick(index, i)}>
       {board[index][i]}
@@ -134,12 +135,30 @@ function calculateWinner(squares) {
 
   for (let i = 0; i < lines.length; i++) {
     const [a, b, c] = lines[i];
+    if(squares[a] == "?") continue;
     if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
       return squares[a];
     }
   }
 
   return null;
+}
+
+function calculateDraw(squares, index, bigboard) {
+  if(bigboard[index] == "X"){
+    return "X";
+  }
+  if(bigboard[index] == "O"){
+    return "O";
+  }
+  for(let i = 0; i < squares.length; i++){
+    if(squares[i] == null){
+      return null;
+    }
+  }
+
+  return "?"
+  
 }
 
 export default App;
